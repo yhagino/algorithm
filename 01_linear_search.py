@@ -8,7 +8,7 @@ def linear_search(n: int, v: int):
     for i in list:
         if list[i] == v:
             flag = True
-    print(flag)
+    return flag
 
 
 def linear_search_min(n: int):
@@ -18,7 +18,7 @@ def linear_search_min(n: int):
     for i in list:
         if i < min_val:
             min_val = i
-    print(min_val)
+    return min_val
 
 
 if __name__ == '__main__':
